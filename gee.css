@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+  align-content: center;
+}
+
 body{
     background-color: cadetblue;
     background-image: url();
@@ -10,47 +14,30 @@ body{
     background-size: cover;
     opacity: 0.1px;
     
-}
-
-/* .container{
-  width: 100%;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
+}  
+.content{
   display: flex;
   justify-content: space-around;
-} */
-   
-.container{
-  display: flex;
-    width:400px;
-    height:200px;
-    position:absolute;
-    top: 50px;
-    right: 50px;
+  padding: 2%;
 }
 
-
-.dropbtn{
+ .dropbtn{
     background-color: cadetblue;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: 5px black;
-    float: right;
+    float: left;
   }
 
   
   
-  .dropdown{
+  /* .dropdown{
     position: absolute;
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
-  }
+  } */
   
   .dropdown-content {
     display: none;
@@ -80,14 +67,14 @@ body{
   .dropdown:hover .dropbtn{
       background-color: aqua;
     }
-    .dropdown{
+    /* .dropdown{
       float: right;
-    }
+    } */
 
 
 
 
-
+ /
     nav{
       margin: 0 auto;
       padding: 10px 0;
@@ -95,6 +82,9 @@ body{
       text-underline-position: below;
       color: black;
       float: right;
+    }
+    nav ul{
+      align-content: center;
     }
     nav>li{
       text-align: center;
@@ -145,13 +135,16 @@ body{
 
 
 
-.review{
+/* .review{
   font-size: x-large;
   font-style: italic;
   text-align: right;
   color: black;
   float: right;
   margin-right: 10px;
+} */
+.review{
+  float: right;
 }
 .review h7{
   font-weight: bolder;
