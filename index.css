@@ -2,6 +2,7 @@ header{
 background-image: url(Images/apartment.jpg);
 background-size: cover;
 height: 100%;
+background-position: top;
 }
 /* Remove bullets from the navigation bar*/
 ul {
@@ -46,7 +47,7 @@ h1{
     color: rgb(2, 6, 59);
 }
 .home{
-    margin-top:25%;
+    margin-top:27%;
     display: flex;
     border-left: cadetblue;
     box-shadow: rgb(0, 0, 0);
@@ -57,6 +58,8 @@ h1{
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
 }
+
+
 h2{
     background:aqua;
     color: rgb(0, 0, 0);
@@ -67,21 +70,47 @@ h2{
     width: 30%;
     margin: 1%;
     color: rgb(0, 0, 0);
+    background-image: url(Images/background.jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
     font-size: 18px;
     font-weight: bolder;
     text-align: justify;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+.intro>p{
+    margin: 15px;
+}
 .products{
     width: 50%;
     margin: 1%;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.products{
+    margin: 20px;
+}
+.products>ul>li{
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+.products a{
+    color: orange;
+}
+.products a:hover{
+    color: orangered;
+}
+.products a:active{
     color: aqua;
 }
 .join{
     width: 25%;
     margin: 1%;
-    color: aqua;
+    color: rgb(0, 0, 0);
 }
 /* .tenant, .landlord {
     text-align: justify;
@@ -93,10 +122,27 @@ h2{
     margin-right: 5px;
 
 } */
-
+br{
+    padding: 5px;
+}
 .landlord, .tenant{
-    margin-top: 30px;
     margin-left: 5px;
+    text-align: justify;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+input{
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    background-color: rgb(6, 22, 167);
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 3px 3px 5px aqua;
+    border-radius: 30%;
+    border: 2px solid white;
 }
 /* .landlord>label>input{
     padding-top: 5px;
@@ -111,5 +157,9 @@ footer{
     box-shadow:3px 3px 5px rgb(2, 5, 48);
 }
 #foot{
-    margin-top: 25%;
+    padding: 25px;
+}
+footer>p{
+    padding: 25px;
+    text-align: end;
 }
