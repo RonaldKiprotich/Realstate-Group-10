@@ -1,0 +1,142 @@
+nav{
+    margin: 0 auto;
+    /* padding: 10px 0; */
+    margin-right: 0%;
+    text-underline-position: below;
+    color:black;
+ }
+ nav>ul{
+   text-align:center;
+ }
+ nav>ul>li{display:inline-block;}
+ nav>ul>li>a{
+ padding: 10px;
+ margin-right: 0;
+ text-transform: uppercase;
+ text-decoration: none;
+ display: block;
+ color: black;
+ background-color: gray;
+ }
+ nav>ul>li>a:hover {
+ box-shadow: 0 0 10px rgba(212, 35, 35, 0.1), inset 0 0 1px rgba(230, 9, 9, 0.6);
+ background: rgba(2, 1, 10, 0.678);
+ color: rgba(53, 221, 53, 0.7);
+ }
+ .title{
+     /* background-color: aqua; */
+     text-align: center;
+     padding: 10px;
+ }
+ .about{
+     background-color: aqua;
+     max-width:400px;
+ }
+ .team{
+     /* display: inline-table;
+     background-color: cadetblue; */
+     position:absolute;
+     top:140px;
+     right:680px;
+     padding: 0%;
+ }
+ /* footer{
+     text-align: center;
+     background-color: aqua;
+     padding:20px;
+ } */
+ .members{
+     /* position: absolute; */
+     /* display:inline-flex; */
+     /* text-align: right; */
+     display: flex;
+     width:400px;
+     height:200px;
+     position:absolute;
+     top: 150px;
+     right: 480px;
+     margin-top: 20px;
+     margin-left: 10px;
+     border-radius: 20px;
+ }
+ /* .team,.members{
+     background-color: cadetblue;
+ } */
+ /* *{
+     background-image: url("https://cdn.shortpixel.ai/client/q_lossless,ret_img,w_800/https://www.bestkenyansafaris.com/wp-content/uploads/2017/04/rolfs-place-3.jpg");
+ } */
+ #contacts{
+    display: flex;
+    width:400px;
+    height:200px;
+    position:absolute;
+    top: 550px;
+    right: 460px;
+    /* margin-top: 20px;
+    margin-left: 10px;  */
+    /* background-color: cyan; */
+    /* margin-bottom: 10px; */
+ }
+ .map{
+    display: flex;
+    width:400px;
+    height:200px;
+    position:absolute;
+    top: 550px;
+    right: 50px;
+ }
+ footer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow:3px 3px 5px rgb(2, 5, 48);
+    background-color: wheat;
+}
+#foot{
+    margin-top: 25%;
+}
+body{
+    background-size:cover;
+    background-color:beige;
+    /* background-image: url(https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60); */
+    background-repeat: no-repeat;
+}
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .policy{
+      /* background-color: aqua; */
+      max-width: 20%;
+      margin-bottom: 10px;
+      background-color: black;
+      color:white;
+  }
+  nav{
+      background-color: aqua;
+      margin-top: 20px;
+  }
+  .privacy{
+      max-width: 50%;
+      background-color: beige;
+      padding-left: 10px;
+      margin-left: 25%;
+  }
+  .loc{
+      position: relative;
+      text-align: left;
+  }
+  .members>figure>img{
+      border-radius: 40px;
+  }
