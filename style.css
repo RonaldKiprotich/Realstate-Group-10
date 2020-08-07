@@ -55,7 +55,7 @@ label #sign-two{
     background: linear-gradient(to right,rgba(0,0,0,0.6),rgba(220, 53, 69,0.5)), url("images//bg_1.jpg");
     background-size: cover;
     background-position: center center;
-    height: 100px;
+    height: 100vh;
 }
 .banner-text{
     position: absolute;
