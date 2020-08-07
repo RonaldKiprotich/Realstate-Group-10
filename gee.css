@@ -70,66 +70,51 @@ body{
     /* .dropdown{
       float: right;
     } */
-
-
-
-
- /
     nav{
       margin: 0 auto;
       padding: 10px 0;
-      margin-left: 0%;
+      margin-right: 0%;
       text-underline-position: below;
-      color: black;
-      float: right;
-    }
-    nav ul{
-      align-content: center;
-    }
-    nav>li{
-      text-align: center;
-    }
-    nav>ul>li{
-      display: inline-block;
-    }
-    nav>ul>li>a{
-      padding: 10px;
-      margin-left: 0;
-      text-transform: uppercase;
-      text-decoration: none;
-      display: block;
-      color: black;
-      background-color:aqua;
-    }
-    nav>ul>li>a:hover{
-      background-color:blue;
-      color: black;
-  }
-  nav>ul>li>a:active {
-    background-color: #4C82AF;
-    color: white;
-  }
+      color:black;
+   }
+   nav>ul{
+     text-align:center;
+     background-color: aqua;
+   }
+   nav>ul>li{display:inline-block;}
+   nav>ul>li>a{
+   padding: 10px;
+   margin-right: 0;
+   text-transform: uppercase;
+   text-decoration: none;
+   display: block;
+   color: black;
+   background-color: gray;
+   }
+   nav>ul>li>a:hover{
+       background-color: aqua;
+       color: black;
+   }
      .appartments h1{
     text-align: right;
     }
-  footer{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    font-weight: bold;
-    font-size: 18px;
-    box-shadow:3px 3px 5px rgb(2, 5, 48);
-    background-color: wheat; 
+    footer{
+      background-color: wheat;
+      display: flex;
+      justify-content: space-around;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      font-weight: bold;
+      font-size: 18px;
+      box-shadow:3px 3px 5px rgb(2, 5, 48);
   }
- 
-
-
-
-   #foot{
-      margin-top: 25%;
+  #foot{
+      padding: 25px;
   }
-  
+  footer>p{
+      padding: 25px;
+      text-align: end;
+  }
 
 
 
